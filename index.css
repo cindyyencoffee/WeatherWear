@@ -1,0 +1,23 @@
+html{
+  background-color:white;
+}
+.midph{
+  width:400px;
+  margin-top:40px;
+  margin-left:400px;
+  position:absolute;
+  
+}
+.Catagory{
+  font-size:40px;
+  position:absolute;
+  top:40px;
+  left:100px;
+}
+.choose{
+  width:5000px;
+  height:150px;
+  background-color:black;
+  position:absolute;
+  top:700px;
+}
