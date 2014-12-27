@@ -1,0 +1,182 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/screen.scss */
+html {
+  background-color: white;
+}
+
+/* line 13, ../sass/screen.scss */
+body#index {
+  margin-left: 400px;
+}
+/* line 15, ../sass/screen.scss */
+body#index span {
+  margin-left: 400px;
+}
+/* line 18, ../sass/screen.scss */
+body#index .note4 {
+  font-size: 26px;
+  position: absolute;
+  top: 450px;
+  left: 300px;
+  z-index: 1;
+}
+/* line 25, ../sass/screen.scss */
+body#index .note3 {
+  font-size: 26px;
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  z-index: 1;
+}
+/* line 32, ../sass/screen.scss */
+body#index .note2 {
+  font-size: 26px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  z-index: 1;
+}
+/* line 39, ../sass/screen.scss */
+body#index .note {
+  font-size: 26px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 1;
+}
+/* line 47, ../sass/screen.scss */
+body#index .front {
+  position: relative;
+  z-index: 1;
+}
+/* line 51, ../sass/screen.scss */
+body#index .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin-top: -400px;
+  margin-left: 150px;
+  background-color: black;
+}
+/* line 59, ../sass/screen.scss */
+body#index .style {
+  width: 200px;
+  height: 300px;
+  opacity: 0.6;
+}
+/* line 65, ../sass/screen.scss */
+body#index .one {
+  width: 200px;
+  height: 300px;
+  border: 3px solid;
+}
+/* line 71, ../sass/screen.scss */
+body#index .two {
+  width: 200px;
+  height: 300px;
+  border: 3px solid;
+  margin-left: 250px;
+  margin-top: -305px;
+}
+/* line 79, ../sass/screen.scss */
+body#index .three {
+  width: 200px;
+  height: 300px;
+  border: 3px solid;
+  margin-top: 40px;
+}
+/* line 85, ../sass/screen.scss */
+body#index .four {
+  width: 200px;
+  height: 300px;
+  border: 3px solid;
+  margin-left: 250px;
+  margin-top: -305px;
+}
+/* line 92, ../sass/screen.scss */
+body#index .choose {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 335px;
+  left: 183px;
+  z-index: 1;
+}
+/* line 100, ../sass/screen.scss */
+body#index .midph {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 400px;
+  position: absolute;
+}
+/* line 107, ../sass/screen.scss */
+body#index .Catagory {
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+/* line 113, ../sass/screen.scss */
+body#index .choose {
+  width: 5000px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 700px;
+}
+
+/* line 122, ../sass/screen.scss */
+#topic .theme {
+  font-size: 50px;
+  font-family: SimSun;
+  position: absolute;
+  top: 50px;
+  left: 550px;
+}
+/* line 129, ../sass/screen.scss */
+#topic .sweater {
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 450px;
+}
+/* line 135, ../sass/screen.scss */
+#topic .Sweater {
+  font-size: 40px;
+  font-family: SimSun;
+  position: absolute;
+  top: 580px;
+  left: 550px;
+}
+
+/* line 145, ../sass/screen.scss */
+#Weather li {
+  margin-top: 15px;
+  border: 1px solid;
+}
+
+/* line 152, ../sass/screen.scss */
+#detail .midph {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 400px;
+  position: absolute;
+}
+/* line 159, ../sass/screen.scss */
+#detail .Catagory {
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+/* line 165, ../sass/screen.scss */
+#detail .choose {
+  width: 5000px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 700px;
+}

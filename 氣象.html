@@ -6,16 +6,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
   <meta charset="utf-8">
   <title>氣象地基</title>
-<style id="jsbin-css">
-li {
-  margin-top:15px;
-  border:1px solid;
-}
 
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+        <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
 
-</style>
 </head>
-<body>
+<body id ="Weather">
    
   <ul>
     <li ng-repeat = "w in weather.result[0].items">      
