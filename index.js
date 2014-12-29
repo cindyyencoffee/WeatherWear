@@ -1,5 +1,5 @@
 
-angular.module('myApp',[])
+angular.module('wearApp',[])
 
 .controller('myCtrl', ['$scope','$window','$http', myCtrl]);
 
@@ -7,9 +7,12 @@ function myCtrl($scope,$window,$http) {
   
   //models
   angular.extend($scope, {
-      weather : 'Hello, World!'
+      weather: {
+        result: [{items: [{date:'讀取中'}]}]
+      }
     }  
   );  
+
  
   //methods
   
@@ -19,11 +22,11 @@ function myCtrl($scope,$window,$http) {
         .success(function(data,   status, headers, config) {
         console.log(data);
         $scope[t] = data;
-  })
+      })
       
       .error(function(data, status, headers, config) {
-        $scope.log(status);
-  });
+        console.log(status);
+      });
   
     }      
   });

@@ -8,15 +8,15 @@ html {
 }
 
 /* line 13, ../sass/screen.scss */
-body#index {
+#index {
   margin-left: 400px;
 }
 /* line 15, ../sass/screen.scss */
-body#index span {
+#index span {
   margin-left: 400px;
 }
 /* line 18, ../sass/screen.scss */
-body#index .note4 {
+#index .note4 {
   font-size: 26px;
   position: absolute;
   top: 450px;
@@ -24,7 +24,7 @@ body#index .note4 {
   z-index: 1;
 }
 /* line 25, ../sass/screen.scss */
-body#index .note3 {
+#index .note3 {
   font-size: 26px;
   position: absolute;
   top: 450px;
@@ -32,7 +32,7 @@ body#index .note3 {
   z-index: 1;
 }
 /* line 32, ../sass/screen.scss */
-body#index .note2 {
+#index .note2 {
   font-size: 26px;
   position: absolute;
   top: 100px;
@@ -40,7 +40,7 @@ body#index .note2 {
   z-index: 1;
 }
 /* line 39, ../sass/screen.scss */
-body#index .note {
+#index .note {
   font-size: 26px;
   position: absolute;
   top: 100px;
@@ -48,12 +48,12 @@ body#index .note {
   z-index: 1;
 }
 /* line 47, ../sass/screen.scss */
-body#index .front {
+#index .front {
   position: relative;
   z-index: 1;
 }
 /* line 51, ../sass/screen.scss */
-body#index .circle {
+#index .circle {
   width: 150px;
   height: 150px;
   border-radius: 150px;
@@ -62,19 +62,19 @@ body#index .circle {
   background-color: black;
 }
 /* line 59, ../sass/screen.scss */
-body#index .style {
+#index .style {
   width: 200px;
   height: 300px;
   opacity: 0.6;
 }
 /* line 65, ../sass/screen.scss */
-body#index .one {
+#index .one {
   width: 200px;
   height: 300px;
   border: 3px solid;
 }
 /* line 71, ../sass/screen.scss */
-body#index .two {
+#index .two {
   width: 200px;
   height: 300px;
   border: 3px solid;
@@ -82,14 +82,14 @@ body#index .two {
   margin-top: -305px;
 }
 /* line 79, ../sass/screen.scss */
-body#index .three {
+#index .three {
   width: 200px;
   height: 300px;
   border: 3px solid;
   margin-top: 40px;
 }
 /* line 85, ../sass/screen.scss */
-body#index .four {
+#index .four {
   width: 200px;
   height: 300px;
   border: 3px solid;
@@ -97,7 +97,7 @@ body#index .four {
   margin-top: -305px;
 }
 /* line 92, ../sass/screen.scss */
-body#index .choose {
+#index .choose {
   color: white;
   font-size: 10px;
   position: absolute;
@@ -106,21 +106,21 @@ body#index .choose {
   z-index: 1;
 }
 /* line 100, ../sass/screen.scss */
-body#index .midph {
+#index .midph {
   width: 400px;
   margin-top: 40px;
   margin-left: 400px;
   position: absolute;
 }
 /* line 107, ../sass/screen.scss */
-body#index .Catagory {
+#index .Catagory {
   font-size: 40px;
   position: absolute;
   top: 40px;
   left: 100px;
 }
 /* line 113, ../sass/screen.scss */
-body#index .choose {
+#index .choose {
   width: 5000px;
   height: 150px;
   background-color: black;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <meta name="robots" content="noindex">
-<html>
+<html ng-app = "wearApp">
 <head>
   <meta charset="utf-8">
   <title>專案版型</title>
@@ -11,41 +11,71 @@
         <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
 </head>
-<body id = "index">
- <div class = "one" id ="oneforone" >
-  
-   <span class ="note">Catagory1</span>
-     
-   <img id="break" class = "style" src = "http://internationalstreetstyle.files.wordpress.com/2014/04/babes-in-velvet-on-international-street-style-montreal.jpg" />   
-  </div>
-  
-  
+<body ng-controller = "myCtrl">
 
+
+  <section id = "index" ng-show = "!step"
+    ng-click = "step = 1">
+   <div class = "one" id ="oneforone" >
     
-  
-  <div class = "two" id = "twofortwo">
-      <img id = "official" class = "style" src ="http://www.harpersbazaar.com/cm/harpersbazaar/images/9L/hbz-street-style-outerwear-1012-10.jpg"/>
+     <span class ="note">Catagory1</span>
+       
+     <img id="break" class = "style" src = "http://internationalstreetstyle.files.wordpress.com/2014/04/babes-in-velvet-on-international-street-style-montreal.jpg" />   
     </div>
-    <span class="note2"> Catagory2 </span>
-  
-  
-  
-    <div class = "three" id = "threeforthree">
-      <img id = "simple" class = "style" src="http://fashion.vogue.com.au//media/images/7/7/8/8/0/778817-1_l.jpg?"/>
-  </div>
-      <span class="note3">Catagory3 </span>
-  
-  
-      
-   <div class = "four" id = "fourforfour">   
-      <img id = "mixmatch" class = "style"src= "http://macaroonsinparis.files.wordpress.com/2013/03/street-style-dress-2.jpg"/>
-  </div>
-  <span class="note4">Catagory4</span>
-  
-   <div class = "circle front" id = "choose">
-  </div>
-  <span class = "choose">選擇一個分類吧！</span>
-  
+    
+    <div class = "two" id = "twofortwo">
+        <img id = "official" class = "style" src ="http://www.harpersbazaar.com/cm/harpersbazaar/images/9L/hbz-street-style-outerwear-1012-10.jpg"/>
+      </div>
+      <span class="note2"> Catagory2 </span>
+    
+    
+    
+      <div class = "three" id = "threeforthree">
+        <img id = "simple" class = "style" src="http://fashion.vogue.com.au//media/images/7/7/8/8/0/778817-1_l.jpg?"/>
+    </div>
+        <span class="note3">Catagory3 </span>
+    
+    
+        
+     <div class = "four" id = "fourforfour">   
+        <img id = "mixmatch" class = "style"src= "http://macaroonsinparis.files.wordpress.com/2013/03/street-style-dress-2.jpg"/>
+    </div>
+    <span class="note4">Catagory4</span>
+    
+     <div class = "circle front" id = "choose">
+    </div>
+    <span class = "choose">選擇一個分類吧！</span>
+  </section>  
+
+  <section id = "topic" ng-show = "step == 1"
+    ng-click = "step = 2">
+    <span class="theme">主題搭配</span>
+    <img class="sweater" src="http://images.cdn.bigcartel.com/bigcartel/product_images/129139086/max_h-1000+max_w-1000/unicorn-sweater.jpg"/>
+    <span class="Sweater">-圖案衛衣-</span>
+  </section>
+
+  <section id ="Weather" ng-show = "step == 2"
+    ng-click = "step = 3"> 
+    <h1>今日天氣</h1>
+    <ul>
+      <li ng-repeat = "w in weather.result[0].items">      
+      {{w.date}}{{w.day}}：
+        <br/>
+        {{w.description}}，氣溫{{w.temperature}}度   
+    </ul>
+  </section>
+
+  <section id = "detail" ng-show = "step == 3"
+    ng-click = "step = 0">
+      <span class="Catagory">Catagory</span>
+    <img class="midph" src="http://cdn1-www.thefashionspot.com/assets/uploads/gallery/street-style-coat-trends-fall-2013/milan-streetstyle-fall-2013_red2.jpg"/>
+      <div class="choose"></div>
+      <img class="redcoat"src="file://localhost/Users/YCINDY/Desktop/New%20Canvas.jpg">
+  </section>
+
+  <script type="text/javascript" src = "bower_components/angular/angular.min.js"></script>
+
+  <script type="text/javascript" src = "./index.js"></script>
       
 </body>
 </html>
