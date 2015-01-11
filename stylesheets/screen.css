@@ -7,176 +7,408 @@ html {
   background-color: white;
 }
 
-/* line 13, ../sass/screen.scss */
-#index {
+/* line 1, ../sass/_catagories.scss */
+#catagories span {
   margin-left: 400px;
 }
-/* line 15, ../sass/screen.scss */
-#index span {
-  margin-left: 400px;
-}
-/* line 18, ../sass/screen.scss */
-#index .note4 {
+/* line 4, ../sass/_catagories.scss */
+#catagories .note4 {
   font-size: 26px;
   position: absolute;
   top: 450px;
-  left: 300px;
+  left: 330px;
   z-index: 1;
 }
-/* line 25, ../sass/screen.scss */
-#index .note3 {
+/* line 11, ../sass/_catagories.scss */
+#catagories .note3 {
   font-size: 26px;
   position: absolute;
   top: 450px;
-  left: 50px;
+  left: 80px;
   z-index: 1;
 }
-/* line 32, ../sass/screen.scss */
-#index .note2 {
+/* line 18, ../sass/_catagories.scss */
+#catagories .note2 {
   font-size: 26px;
   position: absolute;
   top: 100px;
-  left: 300px;
+  left: 330px;
   z-index: 1;
 }
-/* line 39, ../sass/screen.scss */
-#index .note {
+/* line 25, ../sass/_catagories.scss */
+#catagories .note {
   font-size: 26px;
   position: absolute;
   top: 100px;
-  left: 50px;
+  left: 80px;
   z-index: 1;
 }
-/* line 47, ../sass/screen.scss */
-#index .front {
+/* line 33, ../sass/_catagories.scss */
+#catagories .front {
   position: relative;
   z-index: 1;
 }
-/* line 51, ../sass/screen.scss */
-#index .circle {
+/* line 38, ../sass/_catagories.scss */
+#catagories .circle {
   width: 150px;
   height: 150px;
   border-radius: 150px;
   margin-top: -400px;
   margin-left: 150px;
-  background-color: black;
+  background-color: white;
 }
-/* line 59, ../sass/screen.scss */
-#index .style {
+/* line 46, ../sass/_catagories.scss */
+#catagories .style {
   width: 200px;
   height: 300px;
   opacity: 0.6;
 }
-/* line 65, ../sass/screen.scss */
-#index .one {
+/* line 52, ../sass/_catagories.scss */
+#catagories .one {
+  background-color: black;
   width: 200px;
   height: 300px;
   border: 3px solid;
 }
-/* line 71, ../sass/screen.scss */
-#index .two {
+/* line 59, ../sass/_catagories.scss */
+#catagories .two {
+  background-color: black;
   width: 200px;
   height: 300px;
   border: 3px solid;
   margin-left: 250px;
   margin-top: -305px;
 }
-/* line 79, ../sass/screen.scss */
-#index .three {
+/* line 68, ../sass/_catagories.scss */
+#catagories .three {
+  background-color: black;
   width: 200px;
   height: 300px;
   border: 3px solid;
   margin-top: 40px;
 }
-/* line 85, ../sass/screen.scss */
-#index .four {
+/* line 75, ../sass/_catagories.scss */
+#catagories .four {
+  background-color: black;
   width: 200px;
   height: 300px;
   border: 3px solid;
   margin-left: 250px;
   margin-top: -305px;
 }
-/* line 92, ../sass/screen.scss */
-#index .choose {
-  color: white;
+/* line 83, ../sass/_catagories.scss */
+#catagories .choose {
+  color: black;
   font-size: 10px;
   position: absolute;
   top: 335px;
   left: 183px;
   z-index: 1;
 }
-/* line 100, ../sass/screen.scss */
-#index .midph {
+/* line 92, ../sass/_catagories.scss */
+#catagories .style {
+  opacity: 0;
+}
+/* line 95, ../sass/_catagories.scss */
+#catagories #nonote {
+  color: white;
+  font-family: Songti TC;
+}
+/* line 99, ../sass/_catagories.scss */
+#catagories #words {
+  font-family: Songti TC;
+  margin-top: -7px;
+}
+/* line 104, ../sass/_catagories.scss */
+#catagories #nonote:hover, #catagories #nonote:active {
+  opacity: 0;
+  transition: 0s;
+}
+/* line 109, ../sass/_catagories.scss */
+#catagories #break:hover, #catagories #break:active {
+  opacity: 1;
+}
+/* line 113, ../sass/_catagories.scss */
+#catagories #official:hover, #catagories #official:active {
+  opacity: 1;
+}
+/* line 117, ../sass/_catagories.scss */
+#catagories #simple:hover, #catagories #simple:active {
+  opacity: 1;
+}
+/* line 120, ../sass/_catagories.scss */
+#catagories #mixmatch:hover, #catagories #mixmatch:active {
+  opacity: 1;
+}
+
+/* line 1, ../sass/_topic.scss */
+#topic .line {
+  width: 210px;
+  height: 1.5px;
+  background-color: black;
+  margin-left: 663px;
+  margin-top: 200px;
+  position: absolute;
+}
+/* line 9, ../sass/_topic.scss */
+#topic .line2 {
+  width: 215px;
+  height: 1.5px;
+  background-color: black;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 500px;
+}
+/* line 17, ../sass/_topic.scss */
+#topic .midph {
   width: 400px;
   margin-top: 40px;
   margin-left: 400px;
   position: absolute;
+  z-index: -1;
 }
-/* line 107, ../sass/screen.scss */
-#index .Catagory {
+/* line 25, ../sass/_topic.scss */
+#topic .Catagory {
   font-size: 40px;
+  font-family: Songti TC;
   position: absolute;
-  top: 40px;
-  left: 100px;
+  top: 10px;
+  left: 150px;
 }
-/* line 113, ../sass/screen.scss */
-#index .choose {
-  width: 5000px;
+/* line 34, ../sass/_topic.scss */
+#topic .choose {
+  width: 1280px;
   height: 150px;
   background-color: black;
   position: absolute;
   top: 700px;
 }
-
-/* line 122, ../sass/screen.scss */
-#topic .theme {
-  font-size: 50px;
-  font-family: SimSun;
+/* line 41, ../sass/_topic.scss */
+#topic .redcoat {
+  width: 200px;
   position: absolute;
-  top: 50px;
-  left: 550px;
+  margin-left: 840px;
+  margin-top: 50px;
+  z-index: -1;
 }
-/* line 129, ../sass/screen.scss */
-#topic .sweater {
-  height: 400px;
+/* line 48, ../sass/_topic.scss */
+#topic .jeans {
+  width: 150px;
   position: absolute;
-  top: 150px;
-  left: 450px;
+  z-index: -1;
+  margin-left: 250px;
+  margin-top: 350px;
 }
-/* line 135, ../sass/screen.scss */
-#topic .Sweater {
-  font-size: 40px;
-  font-family: SimSun;
+/* line 55, ../sass/_topic.scss */
+#topic .blackhat {
   position: absolute;
-  top: 580px;
-  left: 550px;
+  width: 100px;
+  z-index: -1;
+  margin-left: 280px;
+  margin-top: 70px;
+}
+/* line 62, ../sass/_topic.scss */
+#topic .line3 {
+  position: absolute;
+  width: 205px;
+  height: 1.5px;
+  background-color: black;
+  margin-left: 370px;
+  margin-top: 100px;
+}
+/* line 70, ../sass/_topic.scss */
+#topic .Comment {
+  position: absolute;
+  width: 250px;
+  height: 230px;
+  background-color: black;
+  margin-left: 600px;
+  margin-top: 300px;
+}
+/* line 78, ../sass/_topic.scss */
+#topic .commentwords {
+  position: absolute;
+  color: white;
+  font-family: songti tc;
+  font-size: 12px;
+  margin-left: 650px;
+  margin-top: 350px;
+  width: 150px;
 }
 
-/* line 145, ../sass/screen.scss */
-#Weather li {
-  margin-top: 15px;
-  border: 1px solid;
+/* line 1, ../sass/_weather.scss */
+#weather .rain {
+  margin-left: 470px;
+}
+/* line 5, ../sass/_weather.scss */
+#weather .sun {
+  margin-left: 820px;
+  margin-top: -20px;
+}
+/* line 10, ../sass/_weather.scss */
+#weather .cloudy {
+  margin-top: 300px;
+  margin-left: 470px;
+}
+/* line 15, ../sass/_weather.scss */
+#weather .snowman {
+  margin-top: 300px;
+  margin-left: 820px;
+  width: 400px;
+}
+/* line 21, ../sass/_weather.scss */
+#weather #w {
+  width: 300px;
+  position: absolute;
+}
+/* line 26, ../sass/_weather.scss */
+#weather .circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: black;
+  margin-left: 100px;
+  margin-top: 200px;
+  position: absolute;
+}
+/* line 36, ../sass/_weather.scss */
+#weather #today {
+  color: white;
+  font-family: Songti TC;
+  margin-left: 165px;
+  margin-top: 340px;
+  position: absolute;
+  font-size: 20px;
+}
+/* line 44, ../sass/_weather.scss */
+#weather #w:hover, #weather #w:active {
+  opacity: 0;
+  transition: 0s;
+}
+/* line 48, ../sass/_weather.scss */
+#weather .word {
+  font-family: arial black;
+  font-size: 20px;
+  position: absolute;
+  opacity: 0;
+}
+/* line 54, ../sass/_weather.scss */
+#weather #rainy {
+  margin-left: 570px;
+  margin-top: 100px;
+}
+/* line 58, ../sass/_weather.scss */
+#weather #sunny {
+  margin-left: 920px;
+  margin-top: 100px;
+}
+/* line 62, ../sass/_weather.scss */
+#weather #cloudy {
+  margin-left: 570px;
+  margin-top: 450px;
+}
+/* line 66, ../sass/_weather.scss */
+#weather #cold {
+  margin-left: 920px;
+  margin-top: 450px;
+}
+/* line 70, ../sass/_weather.scss */
+#weather #rain:hover > #rainy, #weather #rain:active > #rainy {
+  opacity: 0;
+  transition: 0s;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 1, ../sass/_detail.scss */
+#detail .line {
+  width: 210px;
+  height: 1.5px;
+  background-color: black;
+  margin-left: 663px;
+  margin-top: 200px;
+  position: absolute;
+}
+/* line 9, ../sass/_detail.scss */
+#detail .line2 {
+  width: 215px;
+  height: 1.5px;
+  background-color: black;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 500px;
+}
+/* line 17, ../sass/_detail.scss */
 #detail .midph {
   width: 400px;
   margin-top: 40px;
   margin-left: 400px;
   position: absolute;
+  z-index: -1;
 }
-/* line 159, ../sass/screen.scss */
+/* line 25, ../sass/_detail.scss */
 #detail .Catagory {
   font-size: 40px;
+  font-family: Songti TC;
   position: absolute;
-  top: 40px;
-  left: 100px;
+  top: 10px;
+  left: 150px;
 }
-/* line 165, ../sass/screen.scss */
+/* line 34, ../sass/_detail.scss */
 #detail .choose {
-  width: 5000px;
+  width: 1280px;
   height: 150px;
   background-color: black;
   position: absolute;
   top: 700px;
+}
+/* line 41, ../sass/_detail.scss */
+#detail .redcoat {
+  width: 200px;
+  position: absolute;
+  margin-left: 840px;
+  margin-top: 50px;
+  z-index: -1;
+}
+/* line 48, ../sass/_detail.scss */
+#detail .jeans {
+  width: 150px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 250px;
+  margin-top: 350px;
+}
+/* line 55, ../sass/_detail.scss */
+#detail .blackhat {
+  position: absolute;
+  width: 100px;
+  z-index: -1;
+  margin-left: 280px;
+  margin-top: 70px;
+}
+/* line 62, ../sass/_detail.scss */
+#detail .line3 {
+  position: absolute;
+  width: 205px;
+  height: 1.5px;
+  background-color: black;
+  margin-left: 370px;
+  margin-top: 100px;
+}
+/* line 70, ../sass/_detail.scss */
+#detail .Comment {
+  position: absolute;
+  width: 250px;
+  height: 230px;
+  background-color: black;
+  margin-left: 600px;
+  margin-top: 300px;
+}
+/* line 78, ../sass/_detail.scss */
+#detail .commentwords {
+  position: absolute;
+  color: white;
+  font-family: songti tc;
+  font-size: 12px;
+  margin-left: 650px;
+  margin-top: 350px;
+  width: 150px;
 }
