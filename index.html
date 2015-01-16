@@ -2,19 +2,138 @@
 
 <html ng-app = "wearApp">
 <head>
-  <body>
   <meta charset="utf-8">
-<img id="w" class="rain"src="http://icons.iconarchive.com/icons/icons8/ios7/256/Weather-Little-Rain-icon.png"/>
-  <img id="w" class="sun"src="http://www.iconpng.com/png/ios7_icons/sun.png"/>
-  <img id="w" class="cloudy"src="http://www.iconpng.com/png/ios7_icons/partly_cloudy_day.png"/>
-  <img id="w" class="snowman" src="http://www.iconpng.com/png/santa-xmas/snowman12.png"/>
-   <div class = "circle " id = "choose" >
+  <title>專案版型</title>
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+        <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+</head>
+<body ng-controller = "myCtrl">
+
+
+  <section id = "weather" ng-show = "!w" ng-click = "w = 1">
+      <img id="w" class="rain"src="http://icons.iconarchive.com/icons/icons8/ios7/256/Weather-Little-Rain-icon.png"/>
+      <img id="w" class="sun"src="http://www.iconpng.com/png/ios7_icons/sun.png"/>
+      <img id="w" class="cloudy"src="http://www.iconpng.com/png/ios7_icons/partly_cloudy_day.png"/>
+      <img id="w" class="snowman" src="http://www.iconpng.com/png/santa-xmas/snowman12.png"/>
+       <div class = "circle " id = "choose" >
+        </div>
+      <span id="today"class="words">選擇今天的天氣吧！</span>
+
+      <span id="rainy" class="word">A rainy day</span>
+      <span id="sunny" class="word">A sunny day</span>
+      <span id="cloudy" class="word">A cloudy day</span>
+      <span id="cold"class="word">A cold day</span>   
+  </section>
+
+
+
+  <section id = "catagories" ng-show = "w && !c" ng-click = "c = 1">
+    <div id="chose">
+      <div class = "one" id ="oneforone" >
+      
+          <span class ="note" id="nonote">休閒</span>
+           
+          <img id="break" class = "style" src = "http://internationalstreetstyle.files.wordpress.com/2014/04/babes-in-velvet-on-international-street-style-montreal.jpg" />   
+        </div>
+      
+        <div class = "two" id = "twofortwo">
+          <img id = "official" class = "style" src ="http://www.harpersbazaar.com/cm/harpersbazaar/images/9L/hbz-street-style-outerwear-1012-10.jpg"/>
+        </div>
+        <span class="note2" id="nonote"> 正式 </span>
+      
+      
+        <div class = "three" id = "threeforthree">
+          <img id = "simple" class = "style" src="http://fashion.vogue.com.au//media/images/7/7/8/8/0/778817-1_l.jpg?"/>
+        </div>
+          
+          <span class="note3"id="nonote">簡單 </span>
+      
+          
+      <div class = "four" id = "fourforfour">   
+            <img id = "mixmatch" class = "style"src= "http://macaroonsinparis.files.wordpress.com/2013/03/street-style-dress-2.jpg"/>
+      </div>
+        <span class="note4"id="nonote">混搭</span>
+      </div>
+      
+      <div class = "circle front" id = "choose">
+      </div>
+      
+      <span class = "choose"id="words">選擇一個分類吧！</span>
+  </section>
+
+
+  <section id ="topic" ng-show = "w && c && !t" ng-click = "t = 1">
+    <span class="theme">主題搭配</span>
+      <img class="sweater" src="http://yolanthecabau.com/wp-content/uploads/2013/10/Schermafbeelding-2013-10-12-om-13.35.03-990x1032.png"/>
+      <span class="Sweater">-鮮豔大衣-</span> 
+  </section>
+
+
+  <section id = "detail" ng-show = "w && c && t"
+    ng-click = "w = 0; c = 0; t = 0">
+    <span class="Catagory">正式</span>
+  
+      <img class="midph" src="http://cdn1-www.thefashionspot.com/assets/uploads/gallery/street-style-coat-trends-fall-2013/milan-streetstyle-fall-2013_red2.jpg"/>
+        <div class="choose"></div>
+       
+        <div class="line">
+        </div>
+       <div class="line2">
+        </div> 
+        <img class="redcoat" src="https://lh5.googleusercontent.com/-m6qwWoiZBIQ/UK0B32SAOqI/AAAAAAAApjc/6g9HCHdHRw4/s600/zara.jpg"/>
+        <img class="jeans" src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2010/3/16/1268762055738/Uniqlo-womens-jeans-006.jpg"/>
+        <img class="blackhat" src="http://www.milechai.com/judaica/judaica-hats/judaica-hat-images/alfonsino-L.jpg"/>
+        <div class="line3"/>
+        <div class="Comment"></div>
+          <span class="commentwords">鮮豔大衣，搭窄管牛仔褲，配上一雙用金色點綴的踝靴，可使腿部看起來更為纖細。頭頂一個深色紳士帽，讓整個造型增添一點率性的味道，也更凸顯女強人的個性。</span>
+
+  </section>
+
+
+
+
+  <script type="text/javascript" src = "bower_components/angular/angular.min.js"></script>
+
+  <script type="text/javascript" src = "./index.js"></script>
+=======
+  <div id="chose">
+  
+   <span class ="note" id="nonote">休閒</span>
+     
+   <img id="break" class = "style" src = "http://internationalstreetstyle.files.wordpress.com/2014/04/babes-in-velvet-on-international-street-style-montreal.jpg" />   
+  </div>
+  
+  
+
+    
+  
+  <div class = "two" id = "twofortwo">
+      <img id = "official" class = "style" src ="http://www.harpersbazaar.com/cm/harpersbazaar/images/9L/hbz-street-style-outerwear-1012-10.jpg"/>
     </div>
-  <span id="today"class="words">選擇今天的天氣吧！</span>
-  <span id="rainy"class="word">A rainy day</span>
-  <span id="sunny"class="word">A sunny day</span>
-  <span id="cloudy"class="word">A cloudy day</span>
-  <span id="cold"class="word">A cold day</span>
+    <span class="note2" id="nonote"> 正式 </span>
+  
+  
+  
+    <div class = "three" id = "threeforthree">
+      <img id = "simple" class = "style" src="http://fashion.vogue.com.au//media/images/7/7/8/8/0/778817-1_l.jpg?"/>
+  </div>
+      <span class="note3"id="nonote">簡單 </span>
+  
+  
+      
+   <div class = "four" id = "fourforfour">   
+      <img id = "mixmatch" class = "style"src= "http://macaroonsinparis.files.wordpress.com/2013/03/street-style-dress-2.jpg"/>
+  </div>
+  <span class="note4"id="nonote">混搭</span>
+  </div>
+   <div class = "circle front" id = "choose">
+  </div>
+  <span class = "choose"id="words">選擇一個分類吧！</span>
+  
+>>>>>>> Stashed changes
       
 </body>
 </html>
