@@ -7,11 +7,7 @@ html {
   background-color: white;
 }
 
-/* line 1, ../sass/_catagories.scss */
-#catagories span {
-  margin-left: 400px;
-}
-/* line 4, ../sass/_catagories.scss */
+/* line 2, ../sass/_catagories.scss */
 #catagories .note4 {
   font-size: 26px;
   position: absolute;
@@ -19,7 +15,7 @@ html {
   left: 330px;
   z-index: 1;
 }
-/* line 11, ../sass/_catagories.scss */
+/* line 9, ../sass/_catagories.scss */
 #catagories .note3 {
   font-size: 26px;
   position: absolute;
@@ -27,7 +23,7 @@ html {
   left: 80px;
   z-index: 1;
 }
-/* line 18, ../sass/_catagories.scss */
+/* line 16, ../sass/_catagories.scss */
 #catagories .note2 {
   font-size: 26px;
   position: absolute;
@@ -35,7 +31,7 @@ html {
   left: 330px;
   z-index: 1;
 }
-/* line 25, ../sass/_catagories.scss */
+/* line 23, ../sass/_catagories.scss */
 #catagories .note {
   font-size: 26px;
   position: absolute;
@@ -43,12 +39,12 @@ html {
   left: 80px;
   z-index: 1;
 }
-/* line 33, ../sass/_catagories.scss */
+/* line 31, ../sass/_catagories.scss */
 #catagories .front {
   position: relative;
   z-index: 1;
 }
-/* line 38, ../sass/_catagories.scss */
+/* line 36, ../sass/_catagories.scss */
 #catagories .circle {
   width: 150px;
   height: 150px;
@@ -57,20 +53,20 @@ html {
   margin-left: 150px;
   background-color: white;
 }
-/* line 46, ../sass/_catagories.scss */
+/* line 44, ../sass/_catagories.scss */
 #catagories .style {
   width: 200px;
   height: 300px;
   opacity: 0.6;
 }
-/* line 52, ../sass/_catagories.scss */
+/* line 50, ../sass/_catagories.scss */
 #catagories .one {
   background-color: black;
   width: 200px;
   height: 300px;
   border: 3px solid;
 }
-/* line 59, ../sass/_catagories.scss */
+/* line 57, ../sass/_catagories.scss */
 #catagories .two {
   background-color: black;
   width: 200px;
@@ -79,7 +75,7 @@ html {
   margin-left: 250px;
   margin-top: -305px;
 }
-/* line 68, ../sass/_catagories.scss */
+/* line 66, ../sass/_catagories.scss */
 #catagories .three {
   background-color: black;
   width: 200px;
@@ -87,7 +83,7 @@ html {
   border: 3px solid;
   margin-top: 40px;
 }
-/* line 75, ../sass/_catagories.scss */
+/* line 73, ../sass/_catagories.scss */
 #catagories .four {
   background-color: black;
   width: 200px;
@@ -96,7 +92,7 @@ html {
   margin-left: 250px;
   margin-top: -305px;
 }
-/* line 83, ../sass/_catagories.scss */
+/* line 81, ../sass/_catagories.scss */
 #catagories .choose {
   color: black;
   font-size: 10px;
@@ -105,135 +101,64 @@ html {
   left: 183px;
   z-index: 1;
 }
-/* line 92, ../sass/_catagories.scss */
+/* line 89, ../sass/_catagories.scss */
 #catagories .style {
   opacity: 0;
 }
-/* line 95, ../sass/_catagories.scss */
+/* line 92, ../sass/_catagories.scss */
 #catagories #nonote {
   color: white;
   font-family: Songti TC;
 }
-/* line 99, ../sass/_catagories.scss */
+/* line 96, ../sass/_catagories.scss */
 #catagories #words {
   font-family: Songti TC;
   margin-top: -7px;
 }
-/* line 104, ../sass/_catagories.scss */
+/* line 101, ../sass/_catagories.scss */
 #catagories #nonote:hover, #catagories #nonote:active {
   opacity: 0;
   transition: 0s;
 }
-/* line 109, ../sass/_catagories.scss */
+/* line 106, ../sass/_catagories.scss */
 #catagories #break:hover, #catagories #break:active {
   opacity: 1;
 }
-/* line 113, ../sass/_catagories.scss */
+/* line 110, ../sass/_catagories.scss */
 #catagories #official:hover, #catagories #official:active {
   opacity: 1;
 }
-/* line 117, ../sass/_catagories.scss */
+/* line 114, ../sass/_catagories.scss */
 #catagories #simple:hover, #catagories #simple:active {
   opacity: 1;
 }
-/* line 120, ../sass/_catagories.scss */
+/* line 117, ../sass/_catagories.scss */
 #catagories #mixmatch:hover, #catagories #mixmatch:active {
   opacity: 1;
 }
 
 /* line 1, ../sass/_topic.scss */
-#topic .line {
-  width: 210px;
-  height: 1.5px;
-  background-color: black;
-  margin-left: 663px;
-  margin-top: 200px;
-  position: absolute;
-}
-/* line 9, ../sass/_topic.scss */
-#topic .line2 {
-  width: 215px;
-  height: 1.5px;
-  background-color: black;
-  position: absolute;
-  margin-left: 350px;
-  margin-top: 500px;
-}
-/* line 17, ../sass/_topic.scss */
-#topic .midph {
-  width: 400px;
-  margin-top: 40px;
-  margin-left: 400px;
-  position: absolute;
-  z-index: -1;
-}
-/* line 25, ../sass/_topic.scss */
-#topic .Catagory {
-  font-size: 40px;
-  font-family: Songti TC;
-  position: absolute;
-  top: 10px;
-  left: 150px;
-}
-/* line 34, ../sass/_topic.scss */
-#topic .choose {
-  width: 1280px;
-  height: 150px;
-  background-color: black;
-  position: absolute;
-  top: 700px;
-}
-/* line 41, ../sass/_topic.scss */
-#topic .redcoat {
-  width: 200px;
-  position: absolute;
-  margin-left: 840px;
-  margin-top: 50px;
-  z-index: -1;
-}
-/* line 48, ../sass/_topic.scss */
-#topic .jeans {
-  width: 150px;
-  position: absolute;
-  z-index: -1;
-  margin-left: 250px;
-  margin-top: 350px;
-}
-/* line 55, ../sass/_topic.scss */
-#topic .blackhat {
-  position: absolute;
-  width: 100px;
-  z-index: -1;
-  margin-left: 280px;
-  margin-top: 70px;
-}
-/* line 62, ../sass/_topic.scss */
-#topic .line3 {
-  position: absolute;
-  width: 205px;
-  height: 1.5px;
-  background-color: black;
-  margin-left: 370px;
-  margin-top: 100px;
-}
-/* line 70, ../sass/_topic.scss */
-#topic .Comment {
-  position: absolute;
-  width: 250px;
-  height: 230px;
-  background-color: black;
-  margin-left: 600px;
-  margin-top: 300px;
-}
-/* line 78, ../sass/_topic.scss */
-#topic .commentwords {
-  position: absolute;
-  color: white;
+#topic .theme {
+  font-size: 50px;
   font-family: songti tc;
-  font-size: 12px;
-  margin-left: 650px;
-  margin-top: 350px;
-  width: 150px;
+  position: absolute;
+  top: 50px;
+  left: 550px;
+}
+/* line 8, ../sass/_topic.scss */
+#topic .sweater {
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 450px;
+}
+/* line 14, ../sass/_topic.scss */
+#topic .Sweaterfont {
+  font-size: 40px;
+  font-family: songti tc;
+  position: absolute;
+  top: 580px;
+  left: 550px;
 }
 
 /* line 1, ../sass/_weather.scss */
